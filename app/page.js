@@ -46,7 +46,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/PFP_PNG.png"
+              src="./PFP_PNG.png"
               alt="Home Logo"
               width={50}
               height={24}
@@ -61,7 +61,7 @@ export default function Home() {
 
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
         <a
           href="#about"
           className="text-red-400 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-100 scroll-smooth"
@@ -73,9 +73,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-xl`}>
-              meet me!
-          </p>
+
         </a>
 
         <a
@@ -89,43 +87,9 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-xl`}>
-            the nerdy stuff.
-          </p>
         </a>
 
-        <Link
-          href="/404"
-          className="text-sky-400 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-100"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold text-4xl`}>
-            projects{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-xl`}>
-            things that i work on in my free time
-          </p>
-        </Link>
 
-        <Link
-          href="/blog"
-          className="text-indigo-400 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-100"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold text-4xl`}>
-            blog{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-xl`}>
-            in my humble opinion...
-          </p>
-        </Link>
       </div>
     </div>
       
@@ -138,10 +102,12 @@ export default function Home() {
           <li className='text-2xl text-slate-300'>3. cybersec, infosec, and OSINT</li>
           <li className='text-2xl text-slate-300'>4. bubble tea</li>
           <li className='text-2xl text-slate-300'>5. gnu/linux and the open source software movement (opensuse+arch btw)</li>
+          <li className='text-2xl text-slate-300'>6. lord of the rings and conlangs (quenya!!)</li>
+          <li className='text-2xl text-slate-300'>7. linux ricing in my free time</li>
         </ul>
       </div>
     </div>
-      <hr class="w-8 h-8 mx-auto my-8 bg-slate-600 border-0 rounded md:my-12" />
+      <hr className="w-8 h-8 mx-auto my-8 bg-slate-600 border-0 rounded md:my-12" />
     <div id='nerd'>
       <div className='mt-4 space-y-2 text-center'>
         <h2 className='text-4xl text-yellow-400 font-bold'>my academic interests and achievements</h2>
